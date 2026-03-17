@@ -2,9 +2,8 @@
   box-sizing: border-box;
   width: 200px;
   height: 408px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $card-border-color;
   border-radius: 5px;
-  border-width: 1px;
   padding: 32px 16px 16px;
 
   &__image {
@@ -49,7 +48,6 @@
     line-height: 14px;
     letter-spacing: 0%;
     text-align: right;
-    vertical-align: bottom;
     color: $main-text-color;
   }
 
@@ -65,7 +63,6 @@
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0%;
-    vertical-align: bottom;
     color: $secondary-text-color;
   }
 
@@ -76,7 +73,6 @@
     line-height: 18px;
     letter-spacing: 0%;
     text-align: right;
-    vertical-align: bottom;
     color: $main-text-color;
   }
 
@@ -90,7 +86,7 @@
     text-align: center;
     text-transform: uppercase;
     background-color: $main-button-color;
-    color: #fff;
+    color: $white-color;
     margin-top: 16px;
     justify-content: center;
     align-items: center;
@@ -101,7 +97,7 @@
     text-decoration: none;
     &:hover {
       color: $main-button-color;
-      background-color: #fff;
+      background-color: $white-color;
     }
   }
 }
