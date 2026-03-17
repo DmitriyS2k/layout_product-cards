@@ -16,7 +16,7 @@
   &__code {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 0.63rem;
     line-height: 14px;
     letter-spacing: 0%;
     color: $secondary-text-color;
@@ -27,7 +27,7 @@
   &__name {
     font-family: Roboto, sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 18px;
     letter-spacing: 0%;
     color: $main-text-color;
@@ -44,7 +44,7 @@
   &__reviews-count {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 0.63rem;
     line-height: 14px;
     letter-spacing: 0%;
     text-align: right;
@@ -60,7 +60,7 @@
   &__buy-price {
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 18px;
     letter-spacing: 0%;
     color: $secondary-text-color;
@@ -69,10 +69,11 @@
   &__buy-price-value {
     font-family: Roboto, sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 18px;
     letter-spacing: 0%;
     text-align: right;
+
     color: $main-text-color;
   }
 
@@ -80,7 +81,7 @@
     display: flex;
     font-family: Roboto, sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.88rem;
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
